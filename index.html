@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.Santini</title>
+    <link rel="shortcut icon" href="img/logo.png" tipe="image/x-icon">
+    <link rel="stylesheet" href="estilosEte.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima&family=Lobster&family=Splash&display=swap" rel="stylesheet">
+     <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+              
+        <nav class="navLogo">
+          
+            <img src="img/logo.png" alt="">
+            <h1>Estefania  Santini</h1>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#proyectos">Proyectos</a></li>
+                <li><a href="https://www.linkedin.com/in/estefania-santini-47714b41/">Sobre Mi</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>                
+            </ul>
+        </nav>
+    </header>
+    
+   
+    <h1 class="title" id="proyectos">Proyectos</h1>
+
+    <main>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="Img/Thai.jpg" class="card-img-top" alt="Logo Masaje">
+            <div class="card-body">
+              <h5 class="card-title">Masaje Thai</h5>
+              <p class="card-text">el masaje.....bla bla.  </p>
+              <a href="#" class="btn btn-primary">Masaje Thai</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Img/bruja-transp.jpg" class="card-img-top" alt="Bruja">
+            <div class="card-body">
+              <h5 class="card-title">Las Brujas</h5>
+              <p class="card-text">Este proyecto nacio para que mis conocidos pudieran aprender e informarse sobre el mundo Crypto, de forma segura y con informacion precisa.</p>
+              <a href="https://lasbrujas.github.io/" class="btn btn-primary">Las Brujas</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Img/cypress-logo.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Testing by Cypress</h5>
+              <p class="card-text">Actualmetne me encuentro estudiando Test-Automation, utilizando Cypress como herramiendo para JS.</p>
+              <p>
+                
+              </p>
+              <a href="https://github.com/Ete-San/Test-Automation" class="btn btn-primary">Repositorio GitHub</a>
+            </div>
+          </div>
+    </main>
+    
+    <section>
+        <h1 class="title" id="contacto">Contacto</h1>
+        
+        <form name="form1" action= "https://formsubmit.co/estefaniasantini@gmail.com" method="POST">
+
+            <div class="name">
+                <h4>Nombre y Apellido</h4>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                <input type="text" name="Apellido" id="" placeholder="Apellido">
+                
+            </div class="contact">
+           
+            <div>
+            <h4>Medio de Contacto</h4> 
+            <input type="email" name="email" id="" placeholder="email">
+            <input type="tel" name="tel" id="" placeholder="Telefono">
+            </div>
+                       
+            <div class="motivo">
+                <h4>Motivo de Contacto</h4>
+                <input type="checkbox" name="ProgWeb" id="programacionWeb"><label for="cocina">Programacion Web</label>
+                <input type="checkbox" name="testeing" id="testing"><label for="musica">Testing</label>
+                <input type="checkbox" name="vet" id="veterinaria"><label for="fisico">Veterinaria</label>
+            </div>
+            
+            <div class="prefCom">
+                <h4>Preferencia de Comunicación</h4>
+                <select name="" id="">
+                    <option type="checkbox" name="Opciones" value="libre">- - </option>
+                    <option type="checkbox" name="Opciones" value="tel">Telefono</option>
+                    <option type="checkbox" name="Opciones" value="mail">Mail</option>
+                    <option type="checkbox" name="Opciones" value="telegram">Telegram</option>
+                    <option type="checkbox" name="Opciones" value="whatsApp">Whats App</option>
+                </select>
+            </div>
+            <div>
+                <h4>Comentarios</h4>
+                <textarea name="comments" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <p>A la brevedad me estaré poniendo en contacto con Ud.</p>
+                <p>Muchas Gracias.</p>
+            </div>
+            
+            <p>
+                <input type="reset" name="Reset" value="Borrar">           
+                <input type="submit" name="Submit" value="Enviar">             
+                </p>
+        </form>
+        <button onclick="verifyName()">Tester Nombre</button>
+        <script src="verificacion11.js"></script>
+
+    </section>
+    <footer>
+        <a href="https://twitter.com/Ete_San"><img src="Img/twitter.png" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/in/estefania-santini-47714b41/"><img src="Img/linkedIn.png" alt="LinkedIn"></a>
+    </footer>
+
+
+   
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
