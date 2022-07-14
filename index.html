@@ -73,27 +73,27 @@
         
         <form name="form1" action= "https://formsubmit.co/estefaniasantini@gmail.com" method="POST">
 
-            <div class="name">
+            <div class="secciones">
                 <h4>Nombre y Apellido</h4>
                 <input type="text" name="name" id="name" placeholder="Nombre">
                 <input type="text" name="Apellido" id="" placeholder="Apellido">
-                
-            </div class="contact">
+            </div >
            
-            <div>
-            <h4>Medio de Contacto</h4> 
-            <input type="email" name="email" id="" placeholder="email">
-            <input type="tel" name="tel" id="" placeholder="Telefono">
+            <div class="secciones">       
+                <input type="email" name="email" id="" placeholder="email">
+                <input type="tel" name="tel" id="" placeholder="Telefono">
             </div>
                        
-            <div class="motivo">
-                <h4>Motivo de Contacto</h4>
-                <input type="checkbox" name="ProgWeb" id="programacionWeb"><label for="cocina">Programacion Web</label>
-                <input type="checkbox" name="testeing" id="testing"><label for="musica">Testing</label>
-                <input type="checkbox" name="vet" id="veterinaria"><label for="fisico">Veterinaria</label>
+            <div class="secciones">
+                <h4>Motivo</h4>
+                <div class="motivos">
+                    <input type="checkbox" name="ProgWeb" id="programacionWeb"><label for="cocina">Programacion Web</label>
+                    <input type="checkbox" name="testeing" id="testing"><label for="musica">Testing</label>
+                    <input type="checkbox" name="vet" id="veterinaria"><label for="fisico">Veterinaria</label>
+                </div>
             </div>
             
-            <div class="prefCom">
+            <div class="secciones">
                 <h4>Preferencia de Comunicación</h4>
                 <select name="" id="">
                     <option type="checkbox" name="Opciones" value="libre">- - </option>
@@ -103,25 +103,28 @@
                     <option type="checkbox" name="Opciones" value="whatsApp">Whats App</option>
                 </select>
             </div>
-            <div>
+            <div class="secciones">
                 <h4>Comentarios</h4>
                 <textarea name="comments" id="" cols="30" rows="10"></textarea>
             </div>
-            <div>
-                <p>A la brevedad me estaré poniendo en contacto con Ud.</p>
-                <p>Muchas Gracias.</p>
+            <div class="secciones">
+                <p>
+                    A la brevedad me pondré en contacto.
+                </p>
             </div>
             
             <p>
-                <input type="reset" name="Reset" value="Borrar">           
-                <input type="submit" name="Submit" value="Enviar">             
-                </p>
+                <input class="botones" type="reset" name="Reset" value="Borrar">           
+                <input class="botones" type="submit" name="Submit" value="Enviar">             
+            </p>
+            <button class="botones" onclick="verifyName()">Tester Nombre</button>
+            <script src="verificacion11.js"></script>
         </form>
-        <button onclick="verifyName()">Tester Nombre</button>
-        <script src="verificacion11.js"></script>
+        
 
     </section>
     <footer>
+        <a href="https://github.com/Ete-San"><img src="Img/github.png" alt="GitHub"></a>
         <a href="https://twitter.com/Ete_San"><img src="Img/twitter.png" alt="Twitter"></a>
         <a href="https://www.linkedin.com/in/estefania-santini-47714b41/"><img src="Img/linkedIn.png" alt="LinkedIn"></a>
     </footer>
