@@ -21,8 +21,7 @@ nav {
 
 .navLogo img {
     width: 20%;
-    width: 200px;
-    height: 200px;
+    height: auto;
     margin: auto;
     display: block;
 }
@@ -141,7 +140,37 @@ footer img {
     align-items: center;
 }
 .navLogo img {
-    width: 10%;
+    width: 20%;
+    height: auto;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media only screen and (max-width: 450px) {
+    /* For mobile phones: */
+
+.navLogo ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 5px;
+    font-size: 12px;
+    width: 25%;
+}
+.navLogo img {
+    width: 20%;
+    height: auto;
+}
+.navLogo h1 {
+    width: 55%;
+    font-family: 'Splash', cursive;
+    font-size: 2.5em;
+    padding: 75px 0px;
+    text-align: center;
 }
 
 main {
@@ -149,5 +178,4 @@ main {
     flex-direction: column;
     align-items: center;
 }
-
 }
